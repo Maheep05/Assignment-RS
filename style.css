@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.triangle-red {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  top: 0;
+  border-right: 0px solid transparent;
+  border-left: 460px solid transparent;
+  border-top: 160px solid #b40814;
+}
+
+.triangle-grey {
+  position: absolute;
+  left: 0;
+  
+  top: 0;
+  border-right: 480px solid transparent;
+  border-left: 0px solid transparent;
+  border-top: 160px solid #bfbfbf;
+}
+
+.summary {
+  position: relative;
+  background: #343434;
+  color: white;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  position: absolute;
+  left: 24%;
+  top: 30px;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  margin: 0px auto;
+}
+
+.main-details {
+  padding: 160px 0px;
+}
+
+.details {
+  font-size: 10px;
+  padding: 12px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.heading {
+  font-size: 20px;
+  padding: 12px;
+  font-family: sans-serif;
+}
+.details-values {
+  color: rgb(214, 205, 205);
+  font-size: 12px;
+}
+.container {
+    width: 100%;
+    height: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-container {
+    display: block;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+/* ------------------Right-------------------------- */
+.main-content {
+  padding: 40px;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro h1 {
+  font-size: 40px;
+  width: 16ch;
+}
+
+.intro h3 {
+  font-weight: normal;
+  font-size: 25px;
+  color: rgb(65, 63, 63);
+}
+
+.intro hr {
+  color: gray;
+  height: 3px;
+  margin: 10px 0px;
+  background-color: gray;
+}
+
+.intro p {
+  font-weight: normal;
+  font-size: 16px;
+  word-spacing: 8px;
+  width: 50ch;
+}
+
+.experience{
+    padding: 8px 0px;
+}
+
+.experience h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+
+.experience hr {
+  color: #b40814;
+  height: 4px;
+  background-color: #b40814;
+}
+
+.project-details {
+  font-size: 12px;
+}
+
+.project-details h2 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.project-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.project-details ul {
+  padding: 4px 20px;
+  width: 80ch;
+}
+
+.internship {
+    padding: 8px 0px;
+}
+
+.internship hr {
+  height: 4px;
+  background-color: #b40814;
+}
+
+.internship h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+.internship h2 {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+.internship h3 {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+.education {
+    padding: 8px 0px;
+}
+
+.education hr {
+  height: 4px;
+  background-color: #b40814;
+}
+
+.education h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+.education h2 {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+.education h3 {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
